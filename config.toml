@@ -1,0 +1,38 @@
+title = "Pawan Dwivedi"
+baseURL = "https://pkdism.github.io/portfolio-website/"
+languageCode = "en-us"
+theme = "ananke"
+# themesDir = "../.."
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+canonifyURLs = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  site_logo = ""
+  description = "The last theme you'll ever need. Maybe."
+  facebook = ""
+  twitter = ""
+  instagram = "https://stackoverflow.com/users/4134949/penguin"
+  youtube = ""
+  github = "https://github.com/pkdism"
+  gitlab = ""
+  linkedin = "https://www.linkedin.com/in/pawan-dwivedi"
+  mastodon = ""
+  slack = ""
+  stackoverflow = "https://stackoverflow.com/users/4134949/penguin"
+  rss = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+  recent_posts_number = 2
